@@ -8,9 +8,9 @@ package com.delivery.app.model;
 	import jakarta.validation.constraints.Email;
 	import jakarta.validation.constraints.NotNull;
 
-	@Entity
-	@Table(name = "tb_usuarios")
-	public class Usuario {
+		@Entity
+		@Table(name = "tb_usuarios")
+		public class Usuario {
 
 	    @Id
 	    @GeneratedValue(strategy = GenerationType.IDENTITY)

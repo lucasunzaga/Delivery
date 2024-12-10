@@ -1,12 +1,9 @@
 package com.delivery.app.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
@@ -17,22 +14,17 @@ import jakarta.validation.constraints.Size;
 
 public class Produtos {
 
-
-
-@Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
-private Long id;
-	
-@NotNull
-@Size(max = 255)
-private String nome;
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+		
+	@NotNull
+	@Size(max = 255)
+	private String nome;
 
 	private float preco;
 	private String categoria;
 	private float entrega;
-	
-	
-	
 	
 	public Long getId() {
 		return id;
