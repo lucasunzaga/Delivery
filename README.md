@@ -11,7 +11,7 @@ Delivery me Gusta Racalu 🛵
 
 🚨 Funcionalidades Principais -> Consultar, adicionar, atualizar e deletar das entidades;
 
-🍕 Entidade produto -> Atributos: Id, nome, preço, categoria, entrega;
+🍕 Entidade Produtos -> Atributos: Id, nome, preço, categoria, entrega;
 
 📚 Entidade Categoria -> Atributos: Id, descrição;
 
